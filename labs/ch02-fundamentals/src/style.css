@@ -1,0 +1,52 @@
+/* 课程设计令牌 2026‑10‑11 */
+:root {
+  --primary: #42b883;
+  --primary-dark: #2c8c60;
+  --primary-bg: #e6f7ef;
+  --accent: #35495e;
+  --card: #ffffff;
+  --border: #d8e2dc;
+  --muted: #6c757d;
+  --shadow: 0 1px 4px rgba(0,0,0,0.08);
+  --radius: 8px;
+  --text: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system‑ui,‑apple‑system,Segoe UI,Roboto,Helvetica,Arial,sans‑serif;
+  margin:0;
+  background:#f7f9f8;
+  color:var(--text);
+  padding:16px;
+}
+
+#app {
+  max‑width:960px;
+  margin:0 auto;
+}
+
+button {
+  cursor:pointer;
+  border:1px solid var(--primary);
+  background:var(--primary‑bg);
+  color:var(--primary‑dark);
+  border‑radius:6px;
+  padding:4px 12px;
+  font‑size:14px;
+}
+
+button:hover {
+  background:var(--primary);
+  color:white;
+}
+
+input,textarea {
+  border:1px solid var(--border);
+  border‑radius:6px;
+  padding:6px 10px;
+  font‑size:14px;
+}
